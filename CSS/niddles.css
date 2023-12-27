@@ -10,7 +10,7 @@
 }
 .niddles i{
     position: absolute;
-    width: 8px;
+    width: 6px;
     height: 50%;
     background: var(--clr);
     border-radius: 6px;
