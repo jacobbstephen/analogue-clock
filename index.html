@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODERN ANALOG CLOCK</title>
+    <link rel="stylesheet" href="./CSS/circles.css">
+    <link rel="stylesheet" href="./CSS/dots.css">
+    <link rel="stylesheet" href="./CSS/niddles.css">
+    <link rel="stylesheet" href="./CSS/labels.css
+    ">
+</head>
+<body>
+    <!--A centeral div for the project-->
+    <div class="clock">
+        <!--A centeral div for the holding the 3 circle together-->
+        <div id="time">
+            <!--A centeral div for the grouping circle with a dot-->
+            <div class="circle" style="--clr:#BC6FF1;">
+                <!--A centeral div for the dot-->
+                <div class="dots" id="sec_dot"></div>
+                <!--A svg for the creating a circle-->
+                <svg>
+                    <circle cx = "120" cy = "120" r = "120" id="ss"></circle>
+                </svg>
+            </div>
+            <div class="circle" style="--clr:#892CDC;">
+                <div class="dots" id="min_dot"></div>
+                <svg>
+                    <circle cx = "100" cy = "100" r = "100" id="mm"></circle>
+                </svg>
+            </div>
+            <div class="circle" style="--clr:#52057B;">
+                <div class="dots" id="hr_dot"></div>
+                <svg>
+                    <circle cx = "80" cy = "80" r = "80" id="hh"></circle>
+                </svg>
+            </div>
+            <!-- Needle -->
+            <div class="niddles" id="hr" style="--clr:#52057B;">
+                <i></i>
+            </div>
+            <div class="niddles niddle2" id="min" style="--clr:#892CDC;">
+                <i></i>
+            </div>
+            <div class="niddles niddle3" id="sec" style="--clr:#BC6FF1;">
+                <i></i>
+            </div>
+            <!--12 dots span tags-->
+            <span style="--i:1"><b>.</b></span>
+            <span style="--i:2"><b>.</b></span>
+            <span style="--i:3"><b>.</b></span>
+            <span style="--i:4"><b>.</b></span>
+            <span style="--i:5"><b>.</b></span>
+            <span style="--i:6"><b>.</b></span>
+            <span style="--i:7"><b>.</b></span>
+            <span style="--i:8"><b>.</b></span>
+            <span style="--i:9"><b>.</b></span>
+            <span style="--i:10"><b>.</b></span>
+            <span style="--i:11"><b>.</b></span>
+            <span style="--i:12"><b>.</b></span>
+        </div>
+    </div>
+    <script src="./JS/circle.js"></script>
+    <script src="./JS/dot.js"></script>
+    <script src="./JS/niddles.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#time span{
+    position: absolute;
+    inset: 55px;
+    text-align: center;/*The '.' must be in center  of each span*/
+    color: white;
+    font-size: 1.5rem;
+    z-index: 10;
+    transform: rotate(calc(30deg * var(--i)));
+}
